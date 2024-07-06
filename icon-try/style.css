@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+body{
+    margin-top: 50px;
+    background-color: aqua;
+    
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: right;
+    background-color: green;
+}
+.nav-item{
+    
+    padding: 4px;
+
+}
+.nav-item li{
+    list-style: none;
+    display: inline-block;
+    
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.bx bxl-twitter{
+    color: white;
+}
